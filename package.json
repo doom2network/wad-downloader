@@ -1,0 +1,24 @@
+{
+  "name": "wad-downloader",
+  "description": "download and extract wad files from public repositories",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.18",
+    "@types/clear": "^0.1.0",
+    "@types/node": "^13.13.5",
+    "@types/node-fetch": "^2.5.7",
+    "@types/unzip": "^0.1.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "clear": "^0.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}
